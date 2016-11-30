@@ -269,7 +269,7 @@ public class ResourceServlet {
 	private List<HashMap> initializeSampleData(Database db) throws Exception {
 
 		long id = System.currentTimeMillis();
-		String name = "Sample category";
+		String name = "Sample file";
 		String value = "List of sample files";
 
 		// create a new document

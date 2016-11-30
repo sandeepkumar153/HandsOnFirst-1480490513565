@@ -44,7 +44,7 @@ public class AttachServlet extends HttpServlet {
 
 		JsonObject resultObject = servlet.create(db, id, name, value, part, fileName);
 
-		System.out.println("Upload completed.");
+		System.out.println("Upload completed success.");
 
 		response.getWriter().println(resultObject.toString());
 	}
